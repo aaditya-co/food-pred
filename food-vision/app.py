@@ -51,7 +51,7 @@ It is based upom a pre-trained Image Classification Model that comes with Keras 
 
 st.title("Food Finder")
 st.header("Identify what's in your food photos!")
-st.write("Created By : Aditya Raj,Rohan Kumar Singh,Saubhagya Mishra")
+st.header("Created By : Aditya Raj,Rohan Kumar Singh,Saubhagya Mishra")
 st.write(
     "To know more about this app, visit [**GitHub**](https://github.com/adityaraj3644/food-pred)")
 file = st.file_uploader(label="Upload an image of food.",
