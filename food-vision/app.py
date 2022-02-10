@@ -31,13 +31,9 @@ st.set_page_config(page_title="Food Finder",
 
 #### SideBar ####
 
-st.sidebar.title("What's Food Finder ?")
+st.sidebar.title("ML Lab Demo")
 st.sidebar.write("""
-FoodVision is an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
-
-It can identify over 100 different food classes
-
-It is based upom a pre-trained Image Classification Model that comes with Keras and then retrained on the infamous **Food101 Dataset**.
+Identifies the food in your image. 
 
 **Accuracy :** **`85%`**
 
@@ -49,11 +45,10 @@ It is based upom a pre-trained Image Classification Model that comes with Keras 
 
 #### Main Body ####
 
-st.title("Food Finder")
-st.header("Identify what's in your food photos!")
+st.title("Food Finder 🍕🍔🍟")
 st.header("Created By : Aditya Raj,Rohan Kumar Singh,Saubhagya Mishra")
 st.write(
-    "To know more about this app, visit [**GitHub**](https://github.com/adityaraj3644/food-pred)")
+    "Visit: [**GitHub**](https://github.com/adityaraj3644/food-pred)")
 file = st.file_uploader(label="Upload an image of food.",
                         type=["jpg", "jpeg", "png"])
 
