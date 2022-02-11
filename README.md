@@ -1,4 +1,4 @@
-# Food Finder :hamburger: :camera:
+# Food Finder :hamburger:
 
 As an introductory project to myself, I built an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
 
