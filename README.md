@@ -25,7 +25,6 @@ Once I got the App working on my local device I then deployed it using Streamlit
 
 
 >
-![Screenshot 2021-05-29 at 6.01.44 PM](./extras/app.png)
 
 Once an app is loaded, 
 
