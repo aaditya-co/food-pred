@@ -1,14 +1,14 @@
-# Food Finder :hamburger:
+# Food Finder :hamburger: 📷:
 
 As an introductory project to myself, I built an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
 
 I worked out with a pre-trained Image Classification Model that comes with Keras and then retrained it on the infamous **Food101** Dataset.
 
-### Fun Fact 
+### Processing 
 
 The Model actually beats the [**DeepFood**](https://arxiv.org/pdf/1606.05675.pdf) Paper's model which also trained on the same dataset.
 
-The Accuracy aquired by DeepFood was **77.4%** and our model's **85%** . Difference of **8%** ain't much, but the interesting thing is, DeepFood's model took **2-3 days** to train while our's barely took **90min**.
+The Accuracy aquired by DeepFood was **77.4%** and our model's **85%** .
 
 > ##### **Dataset used :**  **`Food101`**
 
@@ -16,7 +16,7 @@ The Accuracy aquired by DeepFood was **77.4%** and our model's **85%** . Differe
 
 > ##### **Accuracy :** **`85%`**
 
-## Looks Great, How can I use it ?
+## using
 
 Finally after training the model, I have exported it as `.hdf5` files and then integrated it with **Streamlit Web App**. 
 
@@ -24,7 +24,7 @@ Finally after training the model, I have exported it as `.hdf5` files and then i
 Once I got the App working on my local device I then deployed it using Streamlit’s invite-only **[sharing feature](https://streamlit.io/sharing)**
 
 
->
+> **[Working Demo](https://share.streamlit.io/adityaraj3644/food-pred/main/food-vision/app.py)**
 
 Once an app is loaded, 
 
@@ -34,9 +34,8 @@ Once an app is loaded,
 4. And voilà, there you go.
 
 
-## Okay Cool, How did you build it ?
+## Implementation
 
-> If you actually want to know the Nuts and Bolts how the model was trained check out **[`model-training.ipynb`](https://github.com/gauravreddy08/food-vision/blob/main/model_training.ipynb) Notebook**
 
 1. #### Imported Food101 dataset from **[Tensorflow Datasets](https://www.tensorflow.org/datasets)** Module.
 
@@ -71,14 +70,5 @@ Once an app is loaded,
 
    Once we are satisfied with the results, we can export the model as a `.hdf5`  which can be used in future for model deployment.
 
-## Breaking down the repo
 
-At first glance the files in the repo may look intimidating and overwhelming. To avoid that, here is a quick guide :
-
-* `.gitignore` : tells what files/folders to ignore when committing
-* `app.py`  : Our Food Vision app built using Streamlit
-* `utils.py`  : Some of used fuctions in  `app.py`
-* `model-training.ipynb`  : Google Colab Notebook used to train the model
-* `model/`  : Contains all the models used as *.hfd5* files
-* `requirements.txt`  : List of required dependencies required to run `app.py`
 
