@@ -46,7 +46,7 @@ Identifies the food in your image.
 #### Main Body ####
 
 st.title("Food Finder 🍕🍔🍟")
-st.header("Created By : Aditya Raj,Rohan Kumar Singh,Saubhagya Mishra")
+st.header("Created By : Aditya Raj,Rohan Kumar Singh,Saubhagya Mishra,Hari Sanjeevi")
 st.write(
     "Visit: [**GitHub**](https://github.com/adityaraj3644/food-pred)")
 file = st.file_uploader(label="Upload an image of food.",
