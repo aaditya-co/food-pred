@@ -46,7 +46,7 @@ Identifies the food in your image.
 #### Main Body ####
 
 st.title("Food Finder 🍕🍔🍟")
-st.header("Created By : Aditya Raj,Rohan Kumar Singh,Saubhagya Mishra,Hari Sanjeevi")
+st.header("Created By : Aditya Raj")
 st.write(
     "Visit: [**GitHub**](https://github.com/adityaraj3644/food-pred)")
 file = st.file_uploader(label="Upload an image of food.",
@@ -56,7 +56,7 @@ file = st.file_uploader(label="Upload an image of food.",
 model = tf.keras.models.load_model("./models/EfficientNetB1.hdf5")
 
 
-st.sidebar.markdown("Team Project for ML Lab")
+st.sidebar.markdown("Project for ML Lab")
 
 if not file:
     st.warning("Please upload an image")
